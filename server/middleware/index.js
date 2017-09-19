@@ -4,7 +4,7 @@ const express = require('express')
 const path = require('path')
 const settings = require('../../settings')
 
-module.exports = function(app) {
+module.exports = function (app) {
   app.use(history())
 
   if (process.env.NODE_ENV !== 'production') {
