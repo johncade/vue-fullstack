@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = process.env.PORT || 5555
+const port = process.env.PORT || 8081
 
 // Initialize middleware
 require('./middleware')(app)
@@ -10,5 +10,5 @@ app.use('/api', require('./api'))
 
 // Serve the files on port 3000.
 app.listen(port, function () {
-  console.log('App listening on port 5555!\n')
+  console.log('App listening on port 8081!\n')
 })
