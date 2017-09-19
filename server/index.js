@@ -10,5 +10,5 @@ app.use('/api', require('./api'))
 
 // Serve the files on port 3000.
 app.listen(port, function () {
-  console.log('Example app listening on port 5555!\n')
+  console.log('App listening on port 5555!\n')
 })

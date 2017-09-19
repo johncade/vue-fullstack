@@ -18,7 +18,7 @@ npm run build
 npm run build --report
 
 # Run server in production
-npm run server/index.js
+npm ßstart
 
 
 ```
